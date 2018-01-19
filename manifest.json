@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "no-rsf",
+    "description": "no RSF",
+    "version": "1.8.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
